@@ -1,5 +1,7 @@
 from django.urls import path
-from .views import my_view
+from .views import index_function, post_function, posts_function
 urlpatterns = [
-    path('my_prefix',my_view ,name='my_name')
+    path('',index_function ,name='index_function'),
+    path('',posts_function ,name='posts_function'),
+    path('',post_function ,name='post_function'),
 ]
