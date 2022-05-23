@@ -1,5 +1,5 @@
-# پروژه جنگو (devconnector)
-راهنمای استفاده
+# django (devconenctor) project
+# write these codes in your terminal 
 
 `python -m venv .venv`
 
